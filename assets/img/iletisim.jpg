@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8" />
+    <title> - Netbudur Network Solutions</title>
+    <meta name="keywords" />
+    <meta name="description" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png"/>
+
+    <link rel="stylesheet" href="/assets/css/vendor/bootstrap.css">
+    <link rel="stylesheet" href="/assets/css/vendor/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/css/vendor/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/assets/css/all.css">
+    <link rel="stylesheet" href="/assets/css/font.css">
+    <link rel="stylesheet" href="/assets/css/vendor/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="/assets/css/vendor/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="/assets/css/vendor/jquery-ui-slider-pips.css">
+    <link rel="stylesheet" href="/assets/plugins/mmenu/css/style.css">
+    <link rel="stylesheet" href="/assets/css/datepicker.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css?v=7">
+    <link rel="stylesheet" href="/assets/css/custom.css?v=7">
+
+    <meta name="theme-color" content="#051441">
+    <meta name="msapplication-navbutton-color" content="#051441">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#051441">
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    </head>
+
+<body class="bg-white">
+<header>
+    <section class="w-100 topBar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <div class="dropdown topLanguage">
+                        <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img class="mr-2" src="/assets/img/tr-flag.png" alt="">
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#"><img class="mr-2" src="/assets/img/en-flag.png" alt=""> English</a>
+                                <a class="dropdown-item" href="#"><img class="mr-2" src="/assets/img/de-flag.png" alt=""> Deutsch</a>
+                            </div>
+                            <div class="d-inline-block pt-md-0 pt-1" id="topLanguageBlog">
+                                <a href="#" target="_blank" class="pl-2 blogLink"><i class="fa fa-bookmark"></i> Blog</a>
+                            </div>
+                        </button>
+                    </div>
+                    <ul class="pl-0 mb-0 float-right headerSocialBox mobileSocial d-block d-sm-none d-md-none">
+                        <li class="list-inline d-inline-block"><a href="https://tr-tr.facebook.com/netbudur1"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline d-inline-block"><a href="https://twitter.com/NetbudurNetwork"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline d-inline-block"><a href="https://instagram.com/netbudur"><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-inline d-inline-block"><a href="https://youtube.com/channel/UCf8kB4_R2GDVrVdz9zx7xjQ"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-8 col-12">
+                    <ul class="pl-0 mb-0 float-right headerSocialBox d-none d-md-block">
+                        <li class="list-inline d-inline-block"><a href="https://tr-tr.facebook.com/netbudur1"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline d-inline-block"><a href="https://twitter.com/NetbudurNetwork"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline d-inline-block"><a href="https://instagram.com/netbudur"><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-inline d-inline-block"><a href="https://youtube.com/channel/UCf8kB4_R2GDVrVdz9zx7xjQ"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                    <ul class="pl-0 mb-0 float-right headerSocialBox headerContact">
+                        <li class="list-inline d-inline-block">
+                            <a href="tel:+902162700270">
+                                <i class="fas fa-phone fa-flip-horizontal"></i>
+                                +90 216 270 0 270
+                            </a>
+                        </li>
+                        <li class="list-inline d-inline-block">
+                            <a href="mailto:info@netbudur.com">
+                                <i class="fas fa-paper-plane"></i>
+                                info@netbudur.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="w-100 mainMenu bg-transparent">
+        <nav class="navbar navbar-expand-lg navbar-light container pt-0 pb-0" id="navigation">
+            <a class="navbar-brand" href="/">
+                <img src="/assets/img/logo.png" alt="">
+            </a>
+            <span class="mmenu-trigger">
+                <button class="hamburger hamburger--collapse" type="button">
+                    <span class="hamburger-box"> <span class="hamburger-inner"></span> </span>
+                </button>
+            </span>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+<!---                   <li class="nav-item menu-item dropdown mega-menu">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Alan Adı
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row m-0">
+                                <div class="col-md-8 col-12">
+                                    <div class="row m-0 p-3">
+                                        <div class="col-md-6 col-12">
+                                            <a href="/alan-adi" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/domain/domain-search.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Domain Sorgulama</h5>
+                                                        <p>0,99 $'dan başlayan domain kayıt edelim</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="/alan-adi" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/domain/domain-renew.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Domain Yenileme</h5>
+                                                        <p>Unutmadan domaininizi yenileyelim</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <a href="/alan-adi" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/domain/domain-transfer.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Domain Transferi</h5>
+                                                        <p>En avatajlı fiyatlarla domain transferi</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="/alan-adi" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/domain/domain-whois.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Whois Sorgulama</h5>
+                                                        <p>Alan adını sorgulayın</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 bg-img" style="background-image: url('/assets/img/megamenu-img.png')"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item menu-item dropdown mega-menu">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Hosting
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row m-0">
+                                <div class="col-md-8 col-12">
+                                    <div class="row m-0 p-3">
+                                        <div class="col-md-6 col-12">
+                                            <a href="/linux-web-hosting" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/linux-logo.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Linux Web Hosting</h5>
+                                                        <p>Profesyonel paneli ile kolay yönetim</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="/linux-bayi-hosting" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/reseller.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Linux Bayi Hosting</h5>
+                                                        <p>Lider olmak için birden fazla hosting yönetimi</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="/opencart-hosting" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/opencart.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Opencart Hosting</h5>
+                                                        <p>E-ticaret yönetiminiz için işleriniz kolaylaşacak</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <a href="/windows-web-hosting" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/windows.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Windows Web Hosting</h5>
+                                                        <p>ASP çözümleriniz için ideal paketler</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="/windows-bayi-hosting" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/windows-hosting.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Windows Bayi Hosting</h5>
+                                                        <p>MS tabanlı sitelerinizi burada toplayabilirsiniz</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="../../index.php" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/wordpress.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Wordpress Hosting</h5>
+                                                        <p>WP hayallerinizi buradan gerçekleştirebilirsiniz</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 bg-img" style="background-image: url('/assets/img/megamenu-img.png')"></div>
+                            </div>
+                        </div>
+                    </li> --->
+                    <li class="nav-item menu-item dropdown mega-menu">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Co-Location
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row m-0">
+                                <div class="col-md-8 col-12">
+                                    <div class="row m-0 p-3">
+                                        <div class="col-md-6 col-12">
+                                            <a href="/tek-sunucu-barindirma" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/sunucu/dedicated-server.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Sunucu Barındırma</h5>
+                                                        <p>Sunucu barındırma için detayları buradan görebilirsiniz</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="/tek-sunucu-barindirma" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/sunucu/colocation.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>21U Özel Kabinet</h5>
+                                                        <p>Size uygun kabin hizmetini buradan seçebilirsiniz</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <a href="/tek-sunucu-barindirma" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/sunucu/colocation.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>10U Özel Kabinet</h5>
+                                                        <p>Size uygun kabin hizmetini buradan seçebilirsiniz</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="/tek-sunucu-barindirma" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/sunucu/colocation.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>42U Kabinet</h5>
+                                                        <p>Size uygun kabin hizmetini buradan seçebilirsiniz</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 bg-img" style="background-image: url('/assets/img/co-loc-menu.png')"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item menu-item dropdown mega-menu">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Kiralık Sunucu
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row m-0">
+                                <div class="col-md-8 col-12">
+                                    <div class="row m-0 p-3">
+                                        <div class="col-md-6 col-12">
+                                            <a href="/hemen-teslim-sunucular" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/sunucu/dedicated-server.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Hemen Teslim Sunucular</h5>
+                                                        <p>Size uygun lisanslarınızı buradan seçebilirsiniz</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="/tek-sunucu-barindirma" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/sunucu/colocation.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Yönetilen Sunucu</h5>
+                                                        <p>Yönetilen sunucu için detayları buradan görebilirsiniz</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <a href="/Urun/Satis/3dd48ab31d016ffcbf3314df2b3cb9ce" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/sunucu/ayarlanabilir.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Ayarlanabilir Sunucu</h5>
+                                                        <p>Altyapınızı istediğiniz gibi düzenleyebilirsiniz</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 bg-img" style="background-image: url('/assets/img/megamenu-img.png')"></div>
+                            </div>
+                        </div>
+                    </li>
+                <!---    <li class="nav-item menu-item dropdown mega-menu">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Sanal Sunucu
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row m-0">
+                                <div class="col-md-8 col-12">
+                                    <div class="row m-0 p-3">
+                                        <div class="col-md-6 col-12">
+                                            <a href="/hemen-teslim-sunucular" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/sunucu/dedicated-server.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Hemen Teslim Sunucular</h5>
+                                                        <p>Size uygun lisanslarınızı buradan seçebilirsiniz</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="/Urun/Satis/3dd48ab31d016ffcbf3314df2b3cb9ce" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/sunucu/ayarlanabilir.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Ayarlanabilir Sunucu</h5>
+                                                        <p>Altyapınızı istediğiniz gibi düzenleyebilirsiniz</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="/tek-sunucu-barindirma" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/sunucu/colocation.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Yönetilen Sunucu</h5>
+                                                        <p>Yönetilen sunucu için detayları buradan görebilirsiniz</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <a href="/vds-sunucu" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/sunucu/vds-server.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>VDS Server</h5>
+                                                        <p>Sanal sunucu paket detaylarını inceleyebilirsiniz</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="/Urun/Satis/82cec96096d4281b7c95cd7e74623496" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/sunucu/ayarlanabilir.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Ayarlanabilir VDS</h5>
+                                                        <p>Sanal sunucularınızı kendiniz ayarlayabilirsiniz</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="/ssd-vds-sunucu" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/sunucu/ssd.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>SSD VDS</h5>
+                                                        <p>SSD altyapısıyla sanal sunucu paket detaylarımız</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 bg-img" style="background-image: url('/assets/img/megamenu-img.png')"></div>
+                            </div>
+                        </div> 
+                    </li>	--->
+<!---                    <li class="nav-item menu-item">
+                        <a class="nav-link" href="/ssl-sertifikalari">
+                            SSL Sertifikaları
+                        </a>
+                    </li>	--->
+
+                    <li class="nav-item menu-item">
+                        <a class="nav-link" href="#VeriMerkezi">
+                            Veri Merkezi
+                        </a>
+                    </li>
+                    <!---            <li class="nav-item menu-item dropdown mega-menu">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Diğer
+                        </a> --->
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row m-0">
+                                <div class="col-md-8 col-12">
+                                    <div class="row m-0 p-3">
+                                        <div class="col-md-6 col-12">
+                                            <a href="#" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/diger/ip.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>IP Kiralama</h5>
+                                                        <p>IPv4 ve Ipv6 kiralama hizmetinizi buradan seçebilirsiniz</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="/" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/diger/firewall.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Firewall</h5>
+                                                        <p>Altyapınızı istediğiniz gibi düzenleyebilirsiniz</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/diger/tescil.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Marka Tescil</h5>
+                                                        <p>Markanı tescil etmek artık çok kolay</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <a href="#" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/diger/consulting.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Danışmanlık Hizmeti</h5>
+                                                        <p>Artık işlemleriniz için zorlanmayacaksınız</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/diger/web-development.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Yazılım Hizmeti</h5>
+                                                        <p>Kendize ait yazılım ile profesyonel çözüm</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/diger/website-design.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Siteni Tasarla</h5>
+                                                        <p>İstediğiniz gibi bir web tasarımı yapabilirsiniz</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 bg-img" style="background-image: url('/assets/img/megamenu-img.png')"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item menu-item dropdown mega-menu">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Kurumsal
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row m-0">
+                                <div class="col-md-8 col-12">
+                                    <div class="row m-0 p-3">
+                                        <div class="col-md-6 col-12">
+                                            <a href="/iletisim" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/kurumsal/email.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>İletişim</h5>
+                                                        <p>Bizimle birden fazla seçenekle iletişim kurabilirsiniz</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/kurumsal/infrastructure.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Altyapımız</h5>
+                                                        <p>Altyapımızı yakından daha detaylı inceleyin</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="/hesap-numaralarimiz" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/kurumsal/bank.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Hesap Bilgilerimiz</h5>
+                                                        <p>Hesap numaralarımıza burada ulaşabilirsiniz</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <a href="/hizmet-sozlesmesi" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/kurumsal/contract.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Hizmet Sözleşmesi</h5>
+                                                        <p>Hizmet sözleşmemizi detaylı inceleyebilirsiniz</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="/gizlilik-sozlesmesi" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/kurumsal/privacy.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Gizlilik Sözleşmesi</h5>
+                                                        <p>Gizlilik sözleşmemizi detaylı inceleyebilirsiniz</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="/geri-iade-kosullari" class="mega-menu-item">
+                                                <div class="row m-0">
+                                                    <div class="menu-img">
+                                                        <img src="/assets/img/menu/kurumsal/refund.svg" alt="">
+                                                    </div>
+                                                    <div class="menu-desc">
+                                                        <h5>Geri İade Koşulları</h5>
+                                                        <p>Geri iade koşullarımızı inceleyebilirsiniz</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 bg-img" style="background-image: url('/assets/img/megamenu-img.png')"></div>
+                            </div>
+                        </div>
+                    </li>
+                                            <li class="nav-item loginButton">
+                            <a class="nav-link" href="/Giris">Giriş Yap</a>
+                        </li>
+                        <li class="nav-item registerButton">
+                            <a class="nav-link" href="/Kayit">Kayıt Ol</a>
+                        </li>
+                    
+                </ul>
+            </div>
+        </nav>
+
+
+
+    </section>
+</header>
+<section class="main-section position-relative">
+    <section class="w-100 main-content">
+        <div class="space d-none d-md-block"></div>
+        <div class="space d-none d-md-block"></div>
+        <div class="space"></div>
+        <div class="container">
+            <div class="row home-hero">
+                <div class="col-md-5 col-12">
+                    <div class="space"></div>
+                    <h5>Bizimle Kolayca İletişime Geçebilirsiniz</h5>
+                    <h1>İletişime <br>
+                        Geç</h1>
+                    <a class="btn btn-blue" href="#hostingPackages">İletişime Geç</a>
+                </div>
+                <div class="space d-block d-md-none"></div>
+                <div class="col-md-6 offset-md-1 col-12">
+                    <img class="img-fluid" src="/assets/img/contact-img.png" alt="">
+                </div>
+            </div>
+            <div class="space"></div>
+        </div>
+
+        <div class="space"></div>
+        <h1 class="page-title text-center mb-3">İletişim Bilgilerimiz</h1>
+        <p class="text-center text-blue sub-title f-size-20">Aşağıdaki İletişim Adreslerinden Bize Ulaşabilirsiniz</p>
+        <div class="space"></div>
+
+        <div class="w-100 homePackages commonFeatures bg-grey">
+            <div class="space"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-12 text-center contactBox">
+                        <div class="w-100">
+                            <img src="/assets/img/phone-icon.png" alt="">
+                            <h5>Telefon</h5>
+                            <p><a href="tel:+902162700270">+90 216 270 0 270</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 text-center contactBox">
+                        <div class="w-100">
+                            <img src="/assets/img/mail-icon.png" alt="">
+                            <h5>Mail</h5>
+                            <p><a href="mailto:bilgi@netbudur.com">info@netbudur.com</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 text-center contactBox">
+                        <div class="w-100">
+                            <img src="/assets/img/address-icon.png" alt="">
+                            <h5>Bilgiler</h5>
+                            <p>Unvan: Netbudur Telekomünikasyon Ltd. Şti.</p>
+							<p>Adres: Saray Mh. Akgül Sk. No: 1/35 <br> Ümraniye / İSTANBUL PK: 34768</p>
+							
+                        </div>
+                    </div>
+                </div>
+                <hr class="blue-border">
+
+                <h1 class="page-title text-center mt-5 mb-5">İletişim Formu</h1>
+                <div class="authBox contactForm">
+                    <div class="authFormBox">
+                        <form action="">
+                            <div class="row">
+                                <div class="form-group col-md-4 col-12">
+                                    <input class="form-control" placeholder="Adınız Soyadınız" type="text" required>
+                                </div>
+                                <div class="form-group col-md-4 col-12">
+                                    <input class="form-control" placeholder="Email Adresiniz" type="email" required>
+                                </div>
+                                <div class="form-group col-md-4 col-12">
+                                    <input class="form-control" placeholder="Telefon Numarası" type="text" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="contactDesc" id="contactDesc" cols="30" rows="10" placeholder="Mesajınız"></textarea>
+                            </div>
+                            <button class="btn btn-blue btn-block" type="submit">Gönder</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="space"></div>
+            </div>
+        </div>
+
+        <div class="w-100 bg-white">
+            <div class="container">
+                <div class="space"></div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12050.802474539481!2d29.2752163!3d40.9661369!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x78d7a35fac71ac0c!2sNetbudur%20Network!5e0!3m2!1str!2str!4v1591193294651!5m2!1str!2str" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <div class="space"></div>
+            </div>
+        </div>
+
+    </section>
+
+<footer>
+    <div class="container">
+        <div class="newsletterBox">
+            <div class="row">
+                <div class="col-md-5 col-12">
+                    <h5 class="text-white">Fırsatlardan Hemen Haberdar <br>
+                        Olmak İçin Abone Olun!</h5>
+                </div>
+                <div class="col-md-6 offset-md-1 col-12">
+                    <form class="homeDomainSearch" action="">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input type="text" class="form-control border-0" placeholder="Mail adresinizi giriniz" aria-label="Mail adresinizi giriniz" aria-describedby="button-newsletter">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary rounded" type="button" id="button-newsletter">Abone Ol</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footerMenus mt-4">
+            <div class="row">
+                <div class="col-md-3 col-12">
+                    <div class="w-100">
+                        <h6>Co Location</h6>
+                        <ul class="pl-0">
+                            <li class="list-inline d-block"><a href="/tek-sunucu-barindirma">Sunucu Barındırma</a></li>
+                            <li class="list-inline d-block"><a href="/index.php">10U Özel Kabinet</a></li>
+                            <li class="list-inline d-block"><a href="/index.php">21U Özel Kabine</a></li>
+                            <li class="list-inline d-block"><a href="/index.php">42U Özel Kabine</a></li>
+                        </ul>
+                        <div class="text-left">
+                            <!--   <hr> -->
+                           </div>
+                           <!--   <h6>Sunucu ve <br>Sanal Sunucular</h6>
+                              <ul class="pl-0">
+                                  <li class="list-inline d-block"><a href="../../index.php">VDS Sunucu</a></li>
+                                  <li class="list-inline d-block"><a href="../../index.php">SSD ve VDS Sunucu</a></li>
+                                  <li class="list-inline d-block"><a href="../../index.php">Hemen Teslim Sunucu</a></li>
+                                  <li class="list-inline d-block"><a href="/Urun/Satis/?uid=dbb3ccc3-ff95-443d-b20a-bc584555fbf4">Ayarlanabilir Sunucular</a></li>
+                                  <li class="list-inline d-block"><a href="/Urun/Satis/?uid=dbb3ccc3-ff95-443d-b20a-bc584333fbf4">Ayarlanabilir VDS Sunucu</a></li>
+                                  <li class="list-inline d-block"><a href="../../index.php">Sunucu Barındırma</a></li>
+                              </ul> -->
+                       </div>
+                   </div>
+                   <div class="col-md-3 col-12">
+                       <div class="w-100">
+                           <h6>Sunucu</h6>
+                           <ul class="pl-0">
+                               <li class="list-inline d-block"><a href="/hemen-teslim-sunucular">Sunucu Paketleri</a></li>
+                               <li class="list-inline d-block"><a href="/Urun/Satis/?uid=dbb3ccc3-ff95-443d-b20a-bc584555fbf4">Ayarlanabilir Sunucular</a></li>
+                               <li class="list-inline d-block"><a href="#">Yönetilen Sunucular</a></li>
+                           </ul>
+                           <div class="text-left">
+                               <!--   <hr> -->
+                              </div>
+                              <!--    <h6>Diğer</h6>
+                                  <ul class="pl-0">
+                                      <li class="list-inline d-block"><a href="../../index.php">Lisanslar</a></li>
+                                      <li class="list-inline d-block"><a href="#">Firewall</a></li>
+                                      <li class="list-inline d-block"><a href="#">Marka Tescil</a></li>
+                                      <li class="list-inline d-block"><a href="#">Danışmanlık Hizmeti</a></li>
+                                      <li class="list-inline d-block"><a href="#">Yazılım Hizmeti</a></li>
+                                      <li class="list-inline d-block"><a href="#">Siteni Tasarla</a></li>
+                                  </ul> -->
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <div class="w-100">
+                            <h6>Kurumsal</h6>
+                            <ul class="pl-0">
+                                <li class="list-inline d-block"><a href="/iletisim">İletişim</a></li>
+                                <li class="list-inline d-block"><a href="/hizmet-sozlesmesi">Hizmet Sözleşmesi</a></li>
+                                <li class="list-inline d-block"><a href="/gizlilik-sozlesmesi">Gizlilik Sözleşmesi</a></li>
+                                <li class="list-inline d-block"><a href="/geri-iade-kosullari">Geri İade Koşulları</a></li>
+                                <li class="list-inline d-block"><a href="/hesap-numaralarimiz">Hesap Numaralarımız</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <div class="w-100">
+                            <h6>Güvenlik ve E-Posta</h6>
+                            <ul class="pl-0">
+                                <li class="list-inline d-block"><a href="#">SSL Sertifikaları</a></li>
+                                <li class="list-inline d-block"><a href="#">AntiSpam Gateway</a></li>
+                                <li class="list-inline d-block"><a href="#">Exchange Server</a></li>
+                                <li class="list-inline d-block"><a href="#">Mail Server</a></li>
+                                <li class="list-inline d-block"><a href="#">Kurumsal Mail Hosting</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="w-100 topBar footBar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="row m-0">
+                        <img class="footLogo" src="/assets/img/white-logo.png" alt="">
+                        <p class="mb-0" id="copyRightText">Copyright © 2021 Tüm Hakları Saklıdır.</p>
+                        <div class="dropdown topLanguage">
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="mr-2" src="/assets/img/tr-flag.png" alt=""> Türkçe
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="">
+                                <a class="dropdown-item" href="#"><img class="mr-2" src="/assets/img/en-flag.png" alt=""> English</a>
+                                <a class="dropdown-item" href="#"><img class="mr-2" src="/assets/img/de-flag.png" alt=""> Deutsch</a>
+                            </div>
+                        </div>
+                        <ul class="pl-0 mb-0 float-right headerSocialBox d-block d-sm-none d-md-none" style="width: 50%;text-align: center;">
+                            <li class="list-inline d-inline-block"><a href="https://tr-tr.facebook.com/netbudur1"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="list-inline d-inline-block"><a href="https://twitter.com/NetbudurNetwork"><i class="fab fa-twitter"></i></a></li>
+                            <li class="list-inline d-inline-block"><a href="https://instagram.com/netbudur"><i class="fab fa-instagram"></i></a></li>
+                            <li class="list-inline d-inline-block"><a href="https://youtube.com/channel/UCf8kB4_R2GDVrVdz9zx7xjQ"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <ul class="pl-0 mb-0 float-right headerSocialBox d-none d-md-block">
+                        <li class="list-inline d-inline-block"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline d-inline-block"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline d-inline-block"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-inline d-inline-block"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                    <ul class="pl-0 mb-0 float-right headerSocialBox headerContact">
+                        <li class="list-inline d-inline-block">
+                            <a href="tel:+902162700270">
+                                <i class="fas fa-phone fa-flip-horizontal"></i>
+                                +90 216 270 0 270
+                            </a>
+                        </li>
+                        <li class="list-inline d-inline-block">
+                            <a href="mailto:info@netbudur.com">
+                                <i class="fas fa-paper-plane"></i>
+                                info@netbudur.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="menu-overlay" style="display: none;"></div>
+
+    <!--- <div id="kvkkBox" class="d-none">
+        <p>
+            Bu sitede sizlere daha iyi hizmet sunulabilmesi için çerez kullanılmaktadır.
+            Çerez tercihlerinizi değiştirmek ve çerezler hakkında detaylı bilgi almak için
+            <a href="../../index.php">Gizlilik Politikasını</a> inceleyeniz.
+            Çerez ayarlarını değiştirmeniz durumunda sitenin bazı özelliklerinin işlevselliğini kaybedebileceğini dikkate alınız.
+        </p>
+        <button type="button" id="kvkkButton" class="btn btn-primary text-white btn-block f-size-14">Kabul et ve kapat</button>
+    </div> --->
+<button id="topButton" class="btn btn-primary d-none"><i class="fa fa-angle-up"></i></button>
+
+</section>
+
+<script src="/assets/js/vendor/jquery-3.2.0.min.js"></script>
+<script src="/assets/js/vendor/popper.min.js"></script>
+<script src="/assets/js/vendor/bootstrap.min.js"></script>
+<script src="/assets/js/vendor/owl.carousel.min.js"></script>
+<script src="/assets/js/vendor/jquery-ui.min.js"></script>
+<script src="/assets/js/vendor/jquery-ui-slider-pips.js"></script>
+<script src="/assets/js/vendor/hostslide.min.js"></script>
+<script src="/assets/js/vendor/bootstrap-select.min.js"></script>
+<script src="/assets/js/vendor/jquery.cookie.js"></script>
+<script src="/assets/js/vendor/notify.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script src="/assets/js/ajax.js"></script>
+<script src="/assets/plugins/mmenu/js/mmenu.min.js"></script>
+<script src="/assets/plugins/mmenu/js/custom.js"></script>
+<script src="/assets/js/datepicker.min.js"></script>
+<script src="/assets/js/main.js?v=5"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-99058129-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-99058129-1');
+</script>
+<script src="//code.tidio.co/bxnjwurlyyjghtsjn8ogr0teptfrzfqu.js" async></script>
+<!--Start of Tawk.to Script-->
+<!--<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/583f2e76f9976a1964c0eafd/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+    })();
+</script>-->
+<!--End of Tawk.to Script-->
+<!--<script src="//code-eu1.jivosite.com/widget/Uh15YxYnAW" async></script> -->
+<!-- Smartsupp Live Chat script -->
+<!--<script type="text/javascript">
+    var _smartsupp = _smartsupp || {};
+    _smartsupp.key = 'a944b7f57c5b7281ab49bd3aea7e6475454c480f';
+    window.smartsupp||(function(d) {
+        var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+        s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+        c.type='text/javascript';c.charset='utf-8';c.async=true;
+        c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+    })(document);
+</script>-->
+
+</body>
+
+</html>
